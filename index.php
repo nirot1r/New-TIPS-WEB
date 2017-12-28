@@ -1,13 +1,13 @@
 <?php
-    include "config.php";
+    include "inc/config.php";
     $title = "トップページ";
-    include "header.php";
+    include "inc/header.php";
 ?>
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
                 </div>
-<?php include "sidebar.php"; ?>
+<?php include "inc/sidebar.php"; ?>
             </div>
         </div>
-<?php include "footer.php"; ?>
+<?php include "inc/footer.php"; ?>
