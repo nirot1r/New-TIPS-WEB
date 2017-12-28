@@ -1,3 +1,3 @@
 RewriteEngine On
 
-    RewriteRule ^(.*)$ index.html
+    RewriteRule ^p/(.*)/?$ punish/punishData.php?punishID=$1
